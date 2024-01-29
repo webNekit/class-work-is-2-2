@@ -1,11 +1,5 @@
-const age = prompt("Введите свой возраст");
+// одномерный массив
+let nameArray = ["Tom", "Harry", "Ron", "Bob"];
 
-if ( age >= 18 ) {
-    console.log("Вы можете работать!");
-} else if ( age >= 16 ) {
-    console.log("Вы можете работать с ограничениями");
-} else if (age >= 14 ) {
-    console.log("Вы можете работать с разрешения родителей");
-} else {
-    console.log("Вы еще маленький");
-}
+let studentsArray = [ ["Степан", "Володя", "Андрей"], ["Даша","Катя","Ирина"], [23, true, 7.75] ];
+console.log(studentsArray[1][1]);

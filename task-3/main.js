@@ -1,24 +1,3 @@
-// let students = [ ["Андрей", "Анатолий", "Алексей"], ["Андрей", "Анатолий", "Алексей"] ];
-// students[1][3] = "Степан";
-// console.log(students[0][0]);
-
-
-// const person = {
-//     name: "Андрей",
-//     age: 29,
-//     hobbies: ["Кушать", "Спать", "Слово пацана"],
-//     contacts: {
-//         phone: [88005553255, 88005553255],
-//         email: ["andrey@example.com", "andrey2@example.com"],
-//         social: ["www.github.com", "www.vk.com"]
-//     }
-// };
-
-
-// console.log(`Имя - ${person["name"]}. Возраст - ${person["age"]}`);
-// console.log(`Его любимое занятие - ${person["hobbies"][1]}`);
-// console.log(person["contacts"]["email"][1]);
-
 const students = [
     {name: "Андрей", age: 17, serial: 11111, group: "ИС-2-2"},
     {name: "Иван", age: 18, serial: 11111, group: "ИС-2-2"},
